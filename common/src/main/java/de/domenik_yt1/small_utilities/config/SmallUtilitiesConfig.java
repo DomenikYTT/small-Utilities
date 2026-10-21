@@ -21,7 +21,7 @@ public class SmallUtilitiesConfig {
 
 
     public static void load() throws IOException {
-        Path file = Platform.getConfigFolder().resolve("config.yml");
+        Path file = Platform.getConfigFolder().resolve("small_utilities.yml");
         Properties props = new Properties();
 
         if (Files.exists(file)) {

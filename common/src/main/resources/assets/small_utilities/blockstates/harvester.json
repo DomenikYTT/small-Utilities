@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "waterlogged=false": { "model": "small_utilities:block/harvester" },
+    "waterlogged=true":  { "model": "small_utilities:block/harvester" }
+  }
+}
